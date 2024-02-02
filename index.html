@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Html_js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maior e menor</h1>
+            <h2>Digite 2 numeros <br> O primeiro deve ser maior que o segundo:</h2>
+        </header>
+        <main>
+            <form id="form">
+                <div class="alinhamento">
+                    <input max="10000000000000" min="0" id="primeiro-numero" type="number" placeholder="Digite o primeiro"></input>
+                    <h3>></h3>
+                    <input max="10000000000000" min="0" id="segundo-numero" type="number" placeholder="Digite o segundo"></input>
+                </div>
+                <p id="erro-acerto">menor ou =</p>
+                <button type="submit">Enviar</button>
+                <p id="enviado">maior que</p>
+            </form>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
